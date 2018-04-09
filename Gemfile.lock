@@ -31,6 +31,7 @@ GEM
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
     concurrent-ruby (1.0.5)
+    concurrent-ruby (1.0.5-java)
     contracts (0.13.0)
     dotenv (2.2.1)
     em-websocket (0.5.1)
@@ -38,10 +39,16 @@ GEM
       http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
     eventmachine (1.2.3)
+    eventmachine (1.2.3-java)
+    eventmachine (1.2.3-x64-mingw32)
+    eventmachine (1.2.3-x86-mingw32)
     execjs (2.7.0)
     fast_blank (1.0.0)
     fastimage (2.1.0)
     ffi (1.9.18)
+    ffi (1.9.18-java)
+    ffi (1.9.18-x64-mingw32)
+    ffi (1.9.18-x86-mingw32)
     font-awesome-sass (4.7.0)
       sass (>= 3.2)
     haml (5.0.1)
@@ -51,6 +58,7 @@ GEM
       concurrent-ruby (~> 1.0)
     hashie (3.5.5)
     http_parser.rb (0.6.0)
+    http_parser.rb (0.6.0-java)
     i18n (0.7.0)
     kramdown (1.13.2)
     listen (3.0.8)
@@ -140,14 +148,22 @@ GEM
     temple (0.8.0)
     thor (0.19.4)
     thread_safe (0.3.6)
+    thread_safe (0.3.6-java)
     tilt (2.0.7)
     tzinfo (1.2.3)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2018.4)
+      tzinfo (>= 1.0.0)
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
+    wdm (0.1.1)
 
 PLATFORMS
+  java
   ruby
+  x64-mingw32
+  x86-mingw32
+  x86-mswin32
 
 DEPENDENCIES
   bootstrap-sass (~> 3.3.7)
@@ -167,4 +183,4 @@ DEPENDENCIES
   wdm (~> 0.1.0)
 
 BUNDLED WITH
-   1.15.1
+   1.16.1
